@@ -178,7 +178,7 @@ void draw() {
       } else if (morale >= 2) {
         message = "ENDING B: You find your parents, but it took everything you had.";
       } else {
-        message = "ENDING C: You find a house that looks like yours, but it isn't. The lights are on and nobody is inside...";
+        message = "ENDING C: You find a ... but it isn't home.";
       }
       println(message);
       ended = true;
